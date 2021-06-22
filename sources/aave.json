@@ -1,0 +1,27 @@
+{
+  "app": "Aave",
+  "fname": "aave",
+  "website": "https://docs.aave.com/developers/deployed-contracts/deployed-contracts",
+  "contracts": [
+    {
+      "address": "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9",
+      "desc": "LendingPool"
+    },  
+    {
+      "address": "0xbd4765210d4167CE2A5b87280D9E8Ee316D5EC7C",
+      "desc": "LendingPoolCollateralManager"
+    },  
+    {
+      "address": "0x311Bb771e4F8952E6Da169b425E7e92d6Ac45756",
+      "desc": "LendingPoolConfigurator"
+    },  
+    {
+      "address": "0xd784927Ff2f95ba542BfC824c8a8a98F3495f6b5",
+      "desc": "IncentivesController"
+    },  
+    {
+      "address": "0xDcD33426BA191383f1c9B431A342498fdac73488",
+      "desc": "WETH Gateway"
+    }
+  ]
+}

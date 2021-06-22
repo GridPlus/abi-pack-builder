@@ -1,0 +1,23 @@
+{
+  "name": "abi-pack-builder",
+  "version": "1.0.0",
+  "description": "Everything you need to build ABI packs that are compatible with Lattice firmware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GridPlus/abi-pack-builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GridPlus/abi-pack-builder/issues"
+  },
+  "homepage": "https://github.com/GridPlus/abi-pack-builder#readme",
+  "dependencies": {
+    "gridplus-sdk": "^0.7.24",
+    "superagent": "^6.1.0"
+  }
+}

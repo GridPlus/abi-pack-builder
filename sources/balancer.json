@@ -1,0 +1,43 @@
+{
+  "app": "Balancer",
+  "fname": "balancer",
+  "website": "https://balancer.gitbook.io/balancer/smart-contracts/addresses",
+  "contracts": [
+    {
+      "address": "0x9424B1412450D0f8Fc2255FAf6046b98213B76Bd",
+      "desc": "core pool factory"
+    },
+    {
+      "address": "0xCfE28868F6E0A24b7333D22D8943279e76aC2cdc",
+      "desc": "safe math"
+    },
+    {
+      "address": "0x0F811b1AF2B6B447B008eFF31eCceeE5A0b1d842",
+      "desc": "rights manager"
+    },
+    {
+      "address": "0xA3F9145CB0B50D907930840BB2dcfF4146df8Ab4",
+      "desc": "smart pool manager"
+    },
+    {
+      "address": "0xed52D8E202401645eDAD1c0AA21e872498ce47D0",
+      "desc": "smart pool factory"
+    },
+    {
+      "address": "0xde4A25A0b9589689945d842c5ba0CF4f0D4eB3ac",
+      "desc": "bactions"
+    },
+    {
+      "address": "0x3E66B66Fd1d0b02fDa6C811Da9E0547970DB2f21",
+      "desc": "exchange proxy"
+    },
+    {
+      "address": "0x7226DaaF09B3972320Db05f5aB81FF38417Dd687",
+      "desc": "onchain registry"
+    },
+    {
+      "address": "0x6d19b2bF3A36A61530909Ae65445a906D98A2Fa8",
+      "desc": "merkle redeem"
+    }
+  ] 
+}

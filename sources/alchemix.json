@@ -1,0 +1,87 @@
+{
+  "app": "Alchemix",
+  "fname": "alchemix",
+  "website": "https://alchemix-finance.gitbook.io/alchemix-finance/",
+  "contracts": [
+    {
+      "address": "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF",
+      "desc": "aclx"
+    },
+    {
+      "address": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+      "desc": "alusd"
+    },
+    {
+      "address": "0xc21D353FF4ee73C572425697f4F5aaD2109fe35b",
+      "desc": "alchemist"
+    },
+    {
+      "address": "0x014dE182c147f8663589d77eAdB109Bf86958f13",
+      "desc": "yearn vault adapter"
+    },
+    {
+      "address": "0xaB7A49B971AFdc7Ee26255038C82b4006D122086",
+      "desc": "transmuter"
+    },
+    {
+      "address": "0xf3cFfaEEa177Db444b68FB6f033d4a82f6D8C82d",
+      "desc": "transmuter b"
+    },
+    {
+      "address": "0x491EAFC47D019B44e13Ef7cC649bbA51E15C61d7",
+      "desc": "transmuter vault adapter"
+    },
+    {
+      "address": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+      "desc": "aleth"
+    },
+    {
+      "address": "0x6B566554378477490ab040f6F757171c967D03ab",
+      "desc": "alchemistETh"
+    },
+    {
+      "address": "0xEBA649E0010818Aa4321088D34bD6162d65E7971",
+      "desc": "yearn vault adapter eth"
+    },
+    {
+      "address": "0x45f81eF5F2ae78f49851f7A62e4061FF54Ff674B",
+      "desc": "transmuter eth"
+    },
+    {
+      "address": "0x54dc35eb8c2E2E20f3657Af6F84cd9949C08CF38",
+      "desc": "transmuter eth yearn vault adatper"
+    },
+    {
+      "address": "0xAB8e74017a8Cc7c15FFcCd726603790d26d7DeCa",
+      "desc": "staking pools"
+    },
+    {
+      "address": "0xc3f279090a47e80990fe3a9c30d24cb117ef91a8",
+      "desc": "alcx-eth slp token"
+    },
+    {
+      "address": "0x0589e281d35ee1acf6d4fd32f1fba60effb5281b",
+      "desc": "alusd-eth slp token"
+    },
+    {
+      "address": "0x869d1b8610c038A6C4F37bD757135d4C29ae8917",
+      "desc": "time token"
+    },
+    {
+      "address": "0x7519C93fC5073E15d89131fD38118D73A72370F8",
+      "desc": "onsen alcx rewarder"
+    },
+    {
+      "address": "0xb76256d1091e93976c61449d6e500d9f46d827d4",
+      "desc": "curve staking rewards"
+    },
+    {
+      "address": "0xef0881ec094552b2e128cf945ef17a6752b4ec5d",
+      "desc": "masterchef v2"
+    },
+    {
+      "address": "0x8392F6669292fA56123F71949B52d883aE57e225",
+      "desc": "multisig wallet with timelock"
+    }
+  ]
+}
