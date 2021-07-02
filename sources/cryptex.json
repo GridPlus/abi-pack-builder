@@ -1,0 +1,47 @@
+{
+  "app": "Cryptex",
+  "fname": "cryptex",
+  "website": "https://github.com/cryptexfinance/contracts/tree/master/deployments/mainnet",
+  "contracts": [
+    {
+      "address": "0xa62a082bb8f9f0e63f69053f070fa5c12df1c07e",
+      "desc": "?"
+    },  
+    {
+      "address": "0x2121b3f1719a90e4ded5918cf24a2cc9fca4f1c5",
+      "desc": "?"
+    },  
+    {
+      "address": "0x07Ef20895ceF20855D29ACeDCa35E6f96AF4fF49",
+      "desc": "?"
+    },  
+    {
+      "address": "0xdC4cDd5dB9EE777EFD891690dc283638CB3A5f94",
+      "desc": "?"
+    },  
+    {
+      "address": "0x321C2fE4446C7c963dc41Dd58879AF648838f98D",
+      "desc": "?"
+    },
+    {
+      "address": "0x6b5a75f38BeA1Ef59Bc43A5d9602e77Bcbe65e46",
+      "desc": "?"
+    },    
+    {
+      "address": "0xE0c99C503c4AE5eC50aC63C59C7eF4725C355fdD",
+      "desc": "?"
+    },    
+    {
+      "address": "0x443366a7a5821619D8d57405511E4fadD9964771",
+      "desc": "?"
+    },
+    {
+      "address": "0xc8BB1cd417D20116387a5e0603e195cA4f3Cf59A",
+      "desc": "?"
+    },
+    {
+      "address": "0x271901c3268D0959bbc9543DE4f073D3708C88F7",
+      "desc": "?"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "app": "Element",
+  "fname": "element",
+  "website": "https://raw.githubusercontent.com/element-fi/elf-deploy/main/changelog/releases/mainnet/v1.0.0:1/addresses.json",
+  "contracts": [
+    {
+      "address": "0x62F161BF3692E4015BefB05A03a94A40f520d1c0",
+      "desc": "TrancheFactory"
+    },  
+    {
+      "address": "0xEe4e158c03A10CBc8242350d74510779A364581C",
+      "desc": "userProxy"
+    },  
+    {
+      "address": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+      "desc": "balancerVault"
+    },  
+    {
+      "address": "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9",
+      "desc": "WeightedPoolFActory"
+    },  
+    {
+      "address": "0xb7561f547F3207eDb42A6AfA42170Cd47ADD17BD",
+      "desc": "convergentCurvePoolFactory"
+    },
+    {
+      "address": "0x9b44Ed798a10Df31dee52C5256Dcb4754BCf097E",
+      "desc": "tranch lusd3crv-f"
+    },    
+    {
+      "address": "0xA8D4433BAdAa1A35506804B43657B0694deA928d",
+      "desc": "ptPool"
+    }
+  ]
+}
