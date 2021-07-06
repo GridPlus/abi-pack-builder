@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/GridPlus/abi-pack-builder#readme",
   "dependencies": {
-    "gridplus-sdk": "^0.7.24",
+    "gridplus-sdk": "^0.7.25",
     "superagent": "^6.1.0"
   }
 }
