@@ -64,3 +64,14 @@ env OUT_DIR="/path/to/my/dir" node index.js
 ```
 env ONLY_FETCH="appA appB" node index.js
 ```
+
+**Getting Defs for a Single Contract**
+
+If you want to just test out a single contracts, you can call the script with:
+
+```
+env ADDRESS="0x123...abc" node index.js
+```
+
+This will save a file named after your address in `OUT_DIR` which you can still define as an argument.
+This file will contain no metadata and will just have a dump of the parsed ABI defs.

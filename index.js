@@ -58,14 +58,24 @@ function fetchDefs(packs, cb, out=[]) {
     if (defs.length > 0) {
       let metadata = [];
       pack.contracts.forEach((contract) => {
-        metadata.push({
-          app: pack.app,
-          fname: pack.fname,
-          website: pack.website,
-          address: contract.address,
-        })
+        if (pack.app) {
+          // Only push metadata if it is defined
+          metadata.push({
+            app: pack.app,
+            fname: pack.fname,
+            website: pack.website,
+            address: contract.address,
+          })
+        }
       })
-      out.push(JSON.stringify({ metadata, defs }))
+      if (metadata.length > 0) {
+        // If there is metadata, build a full object containing it
+        out.push(JSON.stringify({ metadata, defs }))
+      } else {
+        // If there is no metadata, stringify just the defs.
+        // This is used with the `ADDRESS` env variable.
+        out.push(JSON.stringify(defs))
+      }
     }
     return fetchDefs(packs, cb, out)
   })
@@ -73,7 +83,18 @@ function fetchDefs(packs, cb, out=[]) {
 
 //============= SCRIPT ===============
 let contracts = [];
-if (process.env.ONLY_FETCH) {
+if (process.env.ADDRESS) {
+  // If an address is passed in, we will fetch functions and build
+  // an output file without metadata.
+  contracts.push({
+    "fname": process.env.ADDRESS,
+    "contracts": [  
+      {
+        "address": process.env.ADDRESS,
+      }
+    ]
+  });
+} else if (process.env.ONLY_FETCH) {
   // If the user provided a subset of pack names, only pull those files
   process.env.ONLY_FETCH.split(" ").forEach((name) => {
     try {
@@ -100,8 +121,13 @@ if (!fs.existsSync(dirName))
 fetchDefs(contracts, (parsedData) => {
   parsedData.forEach((pack) => {
     const _pack = JSON.parse(pack)
-    fs.writeFileSync(`${dirName}/v2_${_pack.metadata[0].fname}.json`, pack)
-    console.log(`${_pack.metadata[0].app}: ${_pack.defs.length} defs.`)
+    if (_pack.metadata) {
+      fs.writeFileSync(`${dirName}/v2_${_pack.metadata[0].fname}.json`, pack)
+      console.log(`${_pack.metadata[0].app}: ${_pack.defs.length} executable defs found.`)
+    } else {
+      fs.writeFileSync(`${dirName}/${process.env.ADDRESS}.json`, pack)
+      console.log(`${_pack.length} executable defs found.`)
+    }
   })
   console.log('Done.')
 });
